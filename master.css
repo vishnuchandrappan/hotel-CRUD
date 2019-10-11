@@ -35,11 +35,11 @@ a:hover{
 }
 
 .nav-link{
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .nav-link:hover{
-    transition: 0.4s;
+    transition: 0.2s;
     transform: scale(1.05);
 }
 
@@ -69,14 +69,14 @@ img{
 .card{
     min-width: 30% !important;
     margin-top: 10px;
-    max-width: 33.3% !important;
+    max-width: 30% !important;
     color: black;
     text-align: center;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .card:hover{
-    transition: 0.4s;
+    transition: 0.2s;
     transform: scale(1.07);
 }
 
@@ -84,4 +84,30 @@ h1{
     display: block;
     margin: 10px auto;
     text-align: center;
+}
+
+.jumbotron{
+    margin-top: 20px !important;
+    color: black;
+}
+
+.text-dark{
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+label{
+    margin-top: 10px;
+}
+
+.btn{
+    display: block;
+    margin: 10px auto !important;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
 }

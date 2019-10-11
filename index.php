@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hotel | CRUD</title>
+    <title>Hotel | HOME</title>
 
     <!-- style sheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -90,7 +90,7 @@
 
         <div class="card-deck">
             <?php
-                $conn = new mysqli('localhost','dbusername','dbpassword','dbname');
+                $conn = new mysqli('localhost','dbuser','dbpassword','dbname');
                 if ($conn->connect_error) {
                     ?>
                     <script type="text/javascript">
